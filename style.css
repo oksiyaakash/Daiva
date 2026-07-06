@@ -576,8 +576,30 @@
             }
             .section-header h2 { font-size: 2.6rem; }
             .hero-title { font-size: 3rem; }
+            .gold-glow-orb {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, var(--gold-glow) 0%, rgba(0,0,0,0) 70%);
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            pointer-events: none;
+        }
         }
         @media (max-width: 768px) {
             section { padding: 6rem 1.5rem; }
             .marketplace-row { gap: 2rem; }
+            .gold-glow-orb {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, var(--gold-glow) 0%, rgba(0,0,0,0) 70%);
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            pointer-events: none;
+        }
         }
